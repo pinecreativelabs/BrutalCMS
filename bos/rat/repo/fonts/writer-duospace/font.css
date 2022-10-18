@@ -1,0 +1,32 @@
+/* ia-Writer Font */
+@font-face {
+    font-family: 'Writer Duospace Bold';
+    src: url('iawriterduospace-bold-webfont.woff2') format('woff2'),
+         url('iawriterduospace-bold-webfont.woff') format('woff');
+    font-weight: normal; font-style: normal;
+}
+@font-face {
+    font-family: 'Writer Duospace Bold Italic';
+    src: url('iawriterduospace-bolditalic-webfont.woff2') format('woff2'),
+         url('iawriterduospace-bolditalic-webfont.woff') format('woff');
+    font-weight: normal; font-style: normal;
+}
+@font-face {
+    font-family: 'Writer Duospace';
+    src: url('iawriterduospace-regular-webfont.woff2') format('woff2'),
+         url('iawriterduospace-regular-webfont.woff') format('woff');
+    font-weight: normal; font-style: normal;
+}
+@font-face {
+    font-family: 'Writer Duospace Italic';
+    src: url('iawriterduospace-regularitalic-webfont.woff2') format('woff2'),
+         url('iawriterduospace-regularitalic-webfont.woff') format('woff');
+    font-weight: normal; font-style: normal;
+}
+.writer-duospace-font{font-family: 'Writer Duospace';}
+.writer-duospace-font.italic, .writer-duospace-font em, .writer-duospace-font i {font-family: 'Writer Duospace Italic';}
+.writer-duospace-font.bold, .writer-duospace-font b, .writer-duospace-font strong {font-family: 'Writer Duospace Bold';}
+.writer-duospace-font.bold.italic, .writer-duospace-font b em, .writer-duospace-font em b, .writer-duospace-font strong em, .writer-duospace-font em strong,
+.writer-duospace-font strong i, .writer-duospace-font i strong, .writer-duospace-font b i, .writer-duospace-font i b {
+	font-family: 'Writer Duospace Bold Italic';
+}

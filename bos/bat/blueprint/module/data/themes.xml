@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<themes>
+  <theme id="1" title="nude" active="true">
+    <colors primary="#ffffff" secondary="#000000" tertiary="#ff0000" links="#0000ff" accent="#808080" other="#ffff00"/>
+    <font size="1" unit="em" type="native">'Courier New', monospace</font>
+    <background size="cover" position="center center" repeat="repeat"/>
+  </theme>
+  <theme id="2" title="8Bit" active="true">
+    <colors primary="#161616" secondary="#f2f5a9" tertiary="#ffbf00" links="#00ffff" accent="#808080" other="#fe2e2e"/>
+    <font size="16" unit="px" type="custom">'DePixel', monospace</font>
+    <background size="auto" position="left top" repeat="repeat"/>
+  </theme>
+  <theme id="3" title="Communist" active="true">
+    <colors primary="#fcea96" secondary="#000000" tertiary="#a60201" links="#a60201" accent="#1c1d18" other="#ffc003"/>
+    <font size="1.1" unit="em" type="custom">'Communist', serif</font>
+    <background size="cover" position="center top" repeat="no-repeat"/>
+  </theme>
+  <theme id="4" title="Vaporwave" active="true">
+    <colors primary="#462064" secondary="#e830d9" tertiary="#ffe1b8" links="#26e8e5" accent="#873177" other="#ffff00"/>
+    <font size="1" unit="em" type="custom">'Bitstream', Verdana, sans-serif</font>
+    <background size="cover" position="center center" repeat="repeat"></background>
+  </theme>
+</themes>

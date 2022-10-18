@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<events>
+	<event>
+		<id>1</id>
+		<title>38th B-Day Party</title>
+		<summary>A celebration of my 38th birthday.</summary>
+		<type>public</type>
+		<category></category>
+		<filters></filters>
+		<startdate></startdate>
+		<enddate></enddate>
+		<starttime></starttime>
+		<endtime></endtime>
+		<description></description>
+		<!-- LOCATION  -->
+		<address></address>
+		<city></city>
+		<!-- CONTACT INFO -->
+		<host></host>
+		<phone></phone>
+		<email></email>
+		<url></url>
+		<!-- LINKS -->
+		<fbevent></fbevent>
+		<meetup></meetup>
+		<eventbrite></eventbrite>
+		<!-- ACCESSIBILITY -->
+		<handicap></handicap>
+		<signlang><signlang>
+		<cc></cc>
+		<lodging></lodging>
+		<transport></transport>
+		<parking></parking>
+	</event>
+</events>

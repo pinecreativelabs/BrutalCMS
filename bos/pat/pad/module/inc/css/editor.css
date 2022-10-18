@@ -1,0 +1,50 @@
+/* general editor */
+body {background: #000; color: #32CD32; font-family: 'Courier New', monospace; }
+header {padding: 0 20px 0 20px; margin: 0;}
+h1 {font-size: 44px; font-weight: 600; margin: 0; padding: 0; line-height: 120%;}
+header a, header a:link, header a:visited {text-decoration: none; color: #0080fe;}
+header a:hover, header a:focus{color: #f2ef35;}
+.block.record {border-bottom: 2px solid #f2f2f2; margin-bottom: 8px; }
+.block.record:nth-child(odd){background: #1c1c1c;}
+.record h4 a:link, .record h4 a:visited{text-decoration: underline; color: #ffff00;}
+.record h4 a:hover {color: #fff;}
+.record h4 {margin: 0; padding: 0; font-weight: 600; font-size: 22px; line-height: 150%;}
+.record h4.title {font-size: 18px;}
+.record p a, .record p a:visited { text-decoration: none; color: #ffff00; }
+.record p a:hover { color: #fff;}
+.record ul.details {list-style:none; padding: 0 !important; margin: 0 !important; }
+.record ul.details li { font-size: 12px !important; font-weight: 600; min-width: 1.5em;
+	background: #2e2e2e; color: #32CD32; border: 1px solid #32CD32; border-radius: 3px; -moz-border-radius: 3px; -webkit-border-radius: 3px;
+	display: inline-block; padding: 4px 6px 4px 6px; margin: 3px;
+}
+.record span.color-sample {display: inline-block; width: 18px; height: 18px; border: 2px solid #fff;}
+.edit-btn, .del-btn, .add-btn, .btn-save, .danger-btn {
+	text-align: center; display: inline-block;
+	padding: 8px; margin: 4px; min-width: 120px;
+	font-size: 16px; font-weight: 600; font-family: 'Trebuchet MS', sans-serif;
+}
+.del-btn-o, .generate-btn { display: inline-block; text-align: center; padding: 8px; margin: 4px; font-size: 16px; font-weight: 600; font-family: 'Trebuchet MS', sans-serif;}
+.padded-body { padding: 30px; background: #f2f2f2; color: #6b6b6b;}
+i.con{display: inline-block; width: 30px; text-align: center; filter: grayscale(100%); -webkit-filter: grayscale(100%); font-style: normal;}
+.edit-btn { background: #0080fe; color: #ffffff;}
+.edit-btn:hover {background: #fff; color: #0080fe;}
+.generate-btn{background: #ffff00; text-shadow: 2px 2px #000;}
+.generate-btn:hover{background: #333;}
+.generate-btn.disabled {background: #6e6e6e;}
+.del-btn, .del-btn-o { background: #ff0000; color: #ffff00;}
+.del-btn:hover, .del-btn-o:hover {background:#ffff00; color: #ff0000;}
+.add-btn,.danger-btn {top: 20px; z-index: 199; font-size: 22px; position: sticky; position: -webkit-sticky;}
+.add-btn {background:#af37fa; color: #fff;}
+.danger-btn {background: #ff0000; color: #ffff00;}
+.add-btn:hover {background: #fff; color: #af37fa;}
+.danger-btn:hover{background: #ffff00; color: #ff0000;}
+.btn-save {background:#0ca623; color: #fff;}
+.btn-save:hover{background: #fff; color: #0ca623;}
+.modal-content .warning { color: #ff0000 !important;}
+.modal-content .modal-title.addnew {color: #fff; background: #af37fa; padding: 8px; }
+.modal-content .modal-title.edit {color:#fff; background: #0080fe; padding: 8px;}
+.modal-content form {color: #333;}
+.modal-content form .block-wrap .block { padding: 0 10px 0 10px;}
+form label, form .label { display: inline-block; background: #d1d1d1; font-family: 'Courier New', monospace; color: #000; font-weight: 600; padding: 4px;}
+form input[type="number"]{max-width: 120px;}
+form select, form input[type="date"] {font-weight: 600; font-size: 18px; color: #000;}

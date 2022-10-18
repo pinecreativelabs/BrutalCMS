@@ -1,0 +1,33 @@
+/* nude theme */
+@import url('root.css');
+
+body {
+	background-color: var(--primary-color);
+	color: var(--secondary-color);
+	font-family: var(--font-family); font-size: var(--font-size);
+}
+a,a:link,a:visited {color: var(--link-color);}
+a:hover {
+	color: var(--other-color);
+	background-color: var(--link-color);
+}
+header {background: var(--primary-color);}
+header h1{margin: 0; padding: 0;}
+.parent>.block,.parent>.brick,.bordered{
+	border: 1px solid var(--secondary-color);
+}
+.menu li {font-size: 1.25em; font-weight: 600;}
+.menu li a {border-bottom: 1px solid var(--link-color); border-right: 1px solid var(--link-color);}
+.menu li a small {font-size: 0.75em; font-weight: normal;}
+.tiles.full.nav li {margin: 0; padding: 0; border-bottom: 1px solid var(--secondary-color);}
+.tiles.full.nav li a{padding: 6px;}
+details summary {border-bottom: 1px solid var(--tertiary-color);
+	cursor: pointer; padding: 6px; font-weight: 600;
+}
+details summary:hover {background: var(--tertiary-color); color: var(--primary-color);}
+details summary::before {content:'+'; 
+	background: var(--tertiary-color); color: var(--primary-color);
+	cursor: pointer; padding: 0 6px 0 6px; margin: 0 6px 0 0;
+}
+details[open]{padding-bottom: 8px;}
+details[open] summary::before {content:'X';}

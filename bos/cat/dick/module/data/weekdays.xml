@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<weekdays>
+	<day dow="Monday">
+		<id>1</id>
+		<title>Monday</title>
+		<content>Blue Monday.&lt;br /&gt;&lt;br /&gt;&lt;small&gt;(Default content for Mondays.)&lt;/small&gt;</content>
+		<link/>
+		<target>_blank</target>
+		<linktext>Learn More</linktext>
+		<dpic>https://i.picsum.photos/id/881/3000/2000.jpg?hmac=H8KkMX3MzuVL5dd9JCnF5RhLPbJ7B5do_WY2zQ5zWMI</dpic>
+		<vtype>none</vtype>
+		<vid/>
+		<colors pcolor="#265f9c" scolor="#d7c2ff" tcolor="#f52f0c"/>
+		<active>true</active>
+	</day>
+	<day dow="Tuesday">
+		<id>2</id>
+		<title>Tuesday</title>
+		<content>Tree of Tuesday.&lt;br /&gt;&lt;br /&gt;&lt;small&gt;(Default content for Tuesdays.)&lt;/small&gt;</content>
+		<link/>
+		<target>_blank</target>
+		<linktext>Learn More</linktext>
+		<dpic>https://i.picsum.photos/id/477/4919/3258.jpg?hmac=5slG-7zTEnvjv53wzZSfhn52E_1v7UtAMJMs_8cjlLc</dpic>
+		<vtype>none</vtype>
+		<vid/>
+		<colors pcolor="#283571" scolor="#82d775" tcolor="#515458"/>
+		<active>true</active>
+	</day>
+	<day dow="Wednesday">
+		<id>3</id>
+		<title>Wednesday</title>
+		<content>HUMP DAY.&lt;br /&gt;&lt;br /&gt;&lt;small&gt;(Default content for Wednesdays.)&lt;/small&gt;</content>
+		<link/>
+		<target>_blank</target>
+		<linktext>Learn More</linktext>
+		<dpic>https://i.picsum.photos/id/525/5184/3456.jpg?hmac=A4S5MeuwTmkc-ikdHh21cCqwLkqYkyVDEq2apsmkzpM</dpic>
+		<vtype>none</vtype>
+		<vid/>
+		<colors pcolor="#377dbe" scolor="#f69813" tcolor="#a1630c"/>
+		<active>true</active>
+	</day>
+	<day dow="Thursday">
+		<id>4</id>
+		<title>Thursday</title>
+		<content>THORSday thunderstorms are sexy as hell.&lt;br /&gt;'Nuff said.&lt;br /&gt;&lt;br /&gt;&lt;small&gt;(Default content for Thursdays.)&lt;/small&gt;</content>
+		<link></link>
+		<target>_blank</target>
+		<linktext>Learn More</linktext>
+		<dpic>https://i.picsum.photos/id/149/3454/2288.jpg?hmac=JoHMBHymDuk59QWHK89nquWAXE4Su1mF07OKdvmpN3g</dpic>
+		<vtype>none</vtype>
+		<vid></vid>
+		<colors pcolor="#47d758" scolor="#303954" tcolor="#081a63"/>
+		<active>true</active>
+	</day>
+	<day dow="Friday">
+		<id>5</id>
+		<title>Friday</title>
+		<content>TGIF.&lt;br /&gt;&lt;br /&gt;&lt;small&gt;(Default content for Fridays.)&lt;/small&gt;</content>
+		<link/>
+		<target>_blank</target>
+		<linktext>Learn More</linktext>
+		<dpic>https://i.picsum.photos/id/677/4288/2848.jpg?hmac=9G3TRArVIg964T44P-E2MTu5_9Fz2juxO9meRramm_4</dpic>
+		<vtype>none</vtype>
+		<vid/>
+		<colors pcolor="#677c89" scolor="#680d0d" tcolor="#dedede"/>
+		<active>true</active>
+	</day>
+	<day dow="Saturday">
+		<id>6</id>
+		<title>Saturday</title>
+		<content>Capture Caturday memories.&lt;br /&gt;&lt;br /&gt;&lt;small&gt;(Default content for Saturdays.)&lt;/small&gt;</content>
+		<link/>
+		<target>_blank</target>
+		<linktext>Learn More</linktext>
+		<dpic>https://i.picsum.photos/id/250/4928/3264.jpg?hmac=4oIwzXlpK4KU3wySTnATICCa4H6xwbSGifrxv7GafWU</dpic>
+		<vtype>none</vtype>
+		<vid/>
+		<colors pcolor="#3e3f41" scolor="#d7b556" tcolor="#fbf4c6"/>
+		<active>true</active>
+	</day>
+	<day dow="Sunday">
+		<id>7</id>
+		<title>Sunday</title>
+		<content>Easy as Sunday morning.&lt;br /&gt;&lt;small&gt;(Default content for Sundays.)&lt;/small&gt;</content>
+		<link/>
+		<target>_blank</target>
+		<linktext>Learn More</linktext>
+		<dpic>https://i.picsum.photos/id/861/5760/3840.jpg?hmac=b3YRc6_Qa18A_rD5L1tXCxP-0LRybGduFJjrlMa5htM</dpic>
+		<vtype>none</vtype>
+		<vid/>
+		<colors pcolor="#d3cfa7" scolor="#38497a" tcolor="#f52f0c"/>
+		<active>true</active>
+	</day>
+</weekdays>

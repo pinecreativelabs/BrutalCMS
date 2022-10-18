@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<media>
+	<post>
+		<id>1</id>
+		<title>My First Media Post</title>
+		<summary>Losing my video posting virginity.</summary>
+		<type>public</type>
+		<category>porn</category>
+		<filters></filters>
+		<dip></dip>
+		<expire>never</expire>
+		<videotype>yt / vimeo / self</videotype>
+		<video></video>
+		<cimg></cimg>
+		<content></content>
+	</post>
+</media>

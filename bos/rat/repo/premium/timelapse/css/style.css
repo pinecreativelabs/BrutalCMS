@@ -1,0 +1,113 @@
+@charset "utf-8";@import url('reset.css');/* Preloader */#preloader {	position:absolute; top:0; left:0;	right:0; bottom:0; z-index:99;}#status {	width:200px; height:200px;	position:absolute;	left:50%; top:50%; 	background-image:url('../images/loader.gif'); 	background-repeat:no-repeat;	background-position:center;	margin:-100px 0 0 -100px; /* is width and height divided by two */}
+body{overflow:hidden;}
+#clouds, #sky, #night, #stars, #nightsky{
+    position:absolute;
+    top:0px; left:0px; right:0px; bottom:0px;
+    width:100%; display: block;
+}
+#sky{
+    background:#fff url('../images/sky.jpg');
+	background-size: 100% 100% !important; 
+	background-repeat: no-repeat;
+    z-index:2;
+}
+#nightsky{
+	background:#fff url('../images/nightsky.jpg');
+	background-size: 100% 100% !important; 
+	background-repeat: no-repeat;
+	z-index:1;
+}
+#sun_yellow{
+    position:absolute;
+    left: 45%; top: 50%;
+    width: 600px; height: 355px;
+    background:transparent url('../images/sun.png');
+	background-size: 100% 100% !important;
+	background-repeat: no-repeat;
+    z-index:3;
+}
+#sun_red{
+    position:absolute;
+    left:45%; top:50%;
+    width: 600px; height: 355px;
+    background:transparent url('../images/sun_red.png');
+	background-size: 100% 100% !important;
+	background-repeat: no-repeat;
+    z-index:3; opacity:0;
+    filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);
+}
+#clouds{
+    background:transparent url('../images/clouds.png') repeat-x top left;
+    z-index:6; width: 200%;
+}
+#ground_night{
+	position: absolute;
+	left: 0px; right: 0px;
+	bottom: 0px; width: 100%;
+	height: 214px;
+	background: transparent url(../images/ground_night.png);
+	background-size: 100% 100% !important;
+	background-position: bottom;
+	background-repeat: no-repeat;
+	z-index:6;
+}
+#ground{
+    position:absolute; left:0px;
+    right:0px; bottom:0px;
+    width:100%; height:214px;
+    background:transparent url(../images/ground_day.png);
+	background-size: 100% 100% !important;
+	background-position: bottom;
+	background-repeat: no-repeat;
+    z-index:7;
+}
+#night{
+    background-color:#000;
+    z-index:8; opacity:0;
+    filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);
+}
+#stars{
+    background:transparent url('../images/stars.png');
+	background-repeat: repeat-x;
+	background-position: top; z-index:4; opacity:0;
+    filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);
+}
+#sstar{
+    position:absolute;
+    left:40%; top:10%;
+    width:126px; height:80px;
+    background:transparent url('../images/shootingstar.png') no-repeat 80px -200px;
+    z-index:4; opacity:0;
+    filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);
+}
+#moon{
+    position:absolute; left:45%; top:60%;
+    /*width:280px; height:280px;*/	width: 25vw; height: 25vw;
+    background:transparent url('../images/moon.png') no-repeat center center;	background-size: 100% 100%;
+    z-index:5; opacity:0;
+    filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);
+}
+#dick, #dick .daily-content-wrapper {opacity: 0; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);}
+/* Just for the showcase*/
+#title p { 
+	font-size: 16px; line-height: 1.1em; color: #fff;
+	font-family: 'MyLuckyPennyRegular', tahoma, arial;
+}
+#logo {	position: absolute; width: 100vw; height: 100vh; display: block;
+	left: 0px; top: 0px; overflow-y: scroll; overflow-x: hidden;
+	/*width: 50vw; height: 20vh;*/
+	/*background:transparent url(../images/b2.png); background-repeat: repeat; */
+    z-index:13; opacity:1;
+    /*filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);*/
+}
+.logo-head { padding: 1em; margin: 0; display: inline-block; border-right: 2px solid #ffff00; border-bottom: 2px solid #ffff00; background: rgba(0,0,0,0.5);}
+#logo h1 {
+	font-family: 'MyLuckyPennyRegular', tahoma, arial; font-size: 60px; line-height: 1.1em; color: #fff; padding: 0; margin: 0;
+}
+#dick-preloader {opacity: 1; z-index: 12; position: absolute; left: 0; bottom: 0; margin-top: 20px;}
+#back{ font-size: 18px; line-height: 1.1em; color: #fff; position:absolute;
+    right:0px; bottom:0px; width:176px; height:50px;
+    z-index:14; outline:none; cursor:pointer; opacity:1;
+    /*filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);*/
+}
+#back a:link, #back a:visited {text-decoration: none; color: #ffff00; background: rgba(0,0,0,0.5); padding: 6px; border-radius: 3px; -webkit-border-radius: 6px;}#back a:hover {color:#fff;}

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<datagroups>
+  <datagroup id="1" title="Ungrouped" description="Ungrouped data entities." type="mixed"/>
+  <datagroup id="2" title="Forms" description="Collected form data." type="mixed"/>
+  <datagroup id="3" title="Inventory" description="Product inventory data." type="csv"/>
+</datagroups>

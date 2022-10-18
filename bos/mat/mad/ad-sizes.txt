@@ -1,0 +1,9 @@
+
+Medium Banner		300x250		40%
+Leaderboard		728x90		25%
+Wide Skyscraper		160x600		12%
+Mobile Leaderboard	320x50		12%
+Halfpage		300x600		5%
+Large Leaderboard	970x90		5%
+Billboard		970x250		1%
+Mobile Full Page Flex	320x320		1%

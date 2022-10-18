@@ -1,0 +1,56 @@
+/* === upload queue === */
+.uploadifive-queue{
+	width: 625px;
+	max-width: 100%;
+	margin-top: 10px;
+}
+/* === after upload link === */
+.uploadifive-queue-item a{
+	font-size: 12px;
+	text-decoration: none;
+	color: #2779AA !important;
+}
+.uploadifive-queue-item a:hover{text-decoration: underline;}
+.uploadifive-queue-item:first-child{margin-top: 0px;}
+/* === upload queue item === */
+.uploadifive-queue-item{
+	margin-top: 5px; padding: 5px;
+	border: 1px solid #D6D6D6;
+	background-color: #000;
+	line-height: 18px !important;
+}
+.fu .cancel{float: right; margin-left: 5px;}
+.uploadifive-button{
+	font-weight: 600; font-family: lucida, sans-serif; color: #d8d8d8; background: #000;
+	cursor: pointer; border: 2px solid #d8d8d8; font-size: 1.25em;
+}
+.uploadifive-button:hover { border: 2px solid #fff; cursor: pointer;}
+.fu .button_cancel{
+	width: 10px; height: 10px;
+	background: transparent url("images/close.png") no-repeat scroll 0 0;
+	border: none;
+	cursor: pointer; padding: 0px;
+	margin-bottom: 0px !important;
+	margin-top: 4px !important;
+	line-height: 1 !important;
+}
+/* === progress bar === */
+.fu .progress{
+	background-color: #fff;
+	border-color: #808080 #C5C5C5 #C5C5C5 #808080; border-style: solid;
+	border-width: 1px; margin-top: 10px; width: 100%;
+}
+.fu .progress-bar{background-color: #00aaff; height: 3px; width: 1px;}
+/* === upload button === */
+.uploadButton{
+	width: 100%; font-size: 1.15em; line-height: 1.3em;
+	margin-top: 10px; padding: 0.35em; font-weight: 600; text-align: center; 
+	background: d8d8d8; color: #333; border: 2px solid #000; 
+}
+.uploadButton:hover{border: 2px solid #fff;}
+.uploadifive-queue::after{
+    font-size: 0px; content: ".";
+    display: block; height: 0px;
+    visibility: hidden; clear: both;
+}
+.amu-custom-button{background: url('images/custom_button.png');}
