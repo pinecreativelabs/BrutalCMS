@@ -1,9 +1,17 @@
 # BrutalCMS
-A lightweight flat-file databaseless content management system for the brutalist web design style. Built with PHP, it uses CSV and XML files to store the data.
+A lightweight flat-file databaseless content management system for the brutalist web design style. Built with raw PHP, it uses CSV and XML files to store the data.
 
 **[BrutalCMS.com](https://www.brutalcms.com)**
 
-## BETA RELEASE PLAN
+### Manage Content Data Without a Database
+Brutal CMS is a raw PHP application that allows you to manage and update content data without relying on a SQL database. It uses CSV and XML files to store data and only needs PHP 5.3 or newer to run, making it highly portable.
+
+### Basic Features
+- **Upload files** (images, video, audio, others)
+- **Manage users** (administrators, editors, and members)
+- **Update raw data** (CSV and XML files)
+
+### BETA RELEASE PLAN
 The first version of Brutal CMS will be released in 3 stages.
 
 1. **Stage 1: Groundwork BETA Release (COMPLETED)**: This is the first BETA version that includes basic functionality and modules ("Groundwork"). This includes user, file, and system management, and some other basic content modules. 
