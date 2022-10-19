@@ -1,5 +1,5 @@
 # BrutalCMS
-A lightweight flat-file databaseless content management system for the brutalist web design style. Built with PHP, with CSV and XML files to store the data.
+A lightweight flat-file databaseless content management system for the brutalist web design style. Built with PHP, it uses CSV and XML files to store the data.
 
 **[BrutalCMS.com](https://www.brutalcms.com)**
 
