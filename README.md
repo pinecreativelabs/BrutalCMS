@@ -1,4 +1,4 @@
-# BrutalCMS
+# Brutal CMS
 A lightweight flat-file databaseless content management system for the brutalist web design style. Built with raw PHP, it uses CSV and XML files to store the data.
 
 **[BrutalCMS.com](https://www.brutalcms.com)**
