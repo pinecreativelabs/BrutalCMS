@@ -11,6 +11,9 @@ Brutal CMS is a raw PHP application that allows you to manage and update content
 - **Manage users** (administrators, editors, and members)
 - **Update raw data** (CSV and XML files)
 
+### Built for Building Brutality
+Brutal CMS was built for the brutalist design style. It's raw nature allows for beginner and novice web developers and designers to build a brutalist website or application for creative personal projects and small businesses. 
+
 ### BETA RELEASE PLAN
 The first version of Brutal CMS will be released in 3 stages.
 
