@@ -25,7 +25,7 @@ The first version of Brutal CMS will be released in 3 stages.
 Due to the raw nature of Brutal CMS, getting started is simple.
 
 ### System Requirements 
-Your server will only need PHP 5.3 or newer. No database is needed, as all data is stored in CSV and XML files. 
+Your server will only need PHP 5.3 or newer, although PHP 7+ is recommended. No database is needed, as all data is stored in CSV and XML files. 
 
 FTP access is recommended, but not required, as long as you have access to edit source files (such as control panel file manager). 
 
