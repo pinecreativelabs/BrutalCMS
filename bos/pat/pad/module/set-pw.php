@@ -9,7 +9,7 @@ while(($data = fgetcsv($input, 1000, ",")) !== FALSE){
    //modify data here
    if ($data[1] == $_POST['oldPassword'] && $data[0] == $_SESSION['userName']) {
       //Replace line here
-      $data[1] = trim(md5($_POST['newPassword']));
+      $data[1] = md5($_POST['newPassword']);
    }
    //write modified data to new file
    fputcsv($output, $data);
