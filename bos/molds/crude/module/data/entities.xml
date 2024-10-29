@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entities>
+  <entity id="227050326" dgroup="Forms" title="contact" format="csv">
+    <description>Contact Us form submissions.</description>
+    <datafile title="contact.csv">/home/pinelabs/beta.brutalistframework.com/bos/repo/data/csv/entities/contact.csv</datafile>
+    <fields>datestamp,first_name,last_name,email,phone</fields>
+  </entity>
+  <entity id="327050624" dgroup="Inventory" title="books" format="csv">
+    <description>Book inventory.</description>
+    <datafile title="books.csv">/home/pinelabs/beta.brutalistframework.com/bos/repo/data/csv/entities/books.csv</datafile>
+    <fields>isbn,title,author,publisher</fields>
+  </entity>
+  <entity id="320031801" dgroup="Inventory" title="daylights" format="csv">
+    <description>LP daylights</description>
+    <datafile title="daylights.csv">/home/pinelabs/beta.brutalistframework.com/bos/repo/data/csv/entities/daylights.csv</datafile>
+    <fields>lpid,title,serial_num</fields>
+  </entity>
+</entities>

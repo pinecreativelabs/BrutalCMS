@@ -1,0 +1,45 @@
+
+Blueprint Grid Tutorials
+
++ "Intro to Blueprint Grid Layout Methods" (video)
++ "Using B3Grid to Create a Fully Responsive Layout"
++ "Creating a Printer-Friendly Layout with Print Grid"
++ "Creating a Confusing Layout with Chaos Grid"
++ "Building a Complex Layout by Combining Multiple Methods"
+
+
+Brutal CMS User Tutorials
+
++ "Intro to Brutal CMS" (video)
++ "SAD Module: System Configuration" (video)
++ "PAD Module: User Management" (video)
++ "FAM Module: File Management" (video)
++ "Blueprint Module: Create Themes and Layouts" (video)
++ "PAGES Module: Manage Pages" (video)
++ "DICK Module: Display Daily Content" (video)
++ "CAD Module: Display Content Articles" (video)
++ "CRUDE Module: Create and Edit CSV Data Entities" (video)
++ "PAWS Module: Post Administration" (video)
++ "JACK Module: Manage Ajax Content" (video)
++ "HAPI Module: Manage Third-Party APIs" (video)
++ "EDU Module: Manage Lessons and Quizzes" (video)
++ "MAD Module: Marketing Management" (video)
++ "SLIDES Module: Create Presentations" (video)
++ "SHOP Module: Commerce Configuration" (video)
+
+
+Brutal CMS Developer Tutorials
+
++ "BOS 101: Toolkit Structure & Basic Concepts" (video)
++ "User Permissions & Access Control" (pdf)
++ "Anatomy of a Module" (pdf)
++ "Referencing and Rendering Module Data" (pdf)
++ "Building Password-Protected Pages" (pdf)
+
+
+Brutalist Design Styles and Inspiration
+
++ "Intro to Brutalism in Web Design" (pdf) - COMPLETED
++ "Crude & Nude: Bare Naked Minimalism" (pdf)
++ "PolyBrut: Combining Multiple Raw Designs" (pdf)
++ "Brutal Blueprint: Planning a Brutalist Website" (pdf)

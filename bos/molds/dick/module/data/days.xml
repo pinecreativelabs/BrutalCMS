@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<days>
+  <day id="331084533" ddate="2024-08-15" title="Brutalist Movement" active="true" td="td">
+    <url target="_blank" linktext="Learn More"/>
+    <media type="video" vidtype="vimeo" vid="393310948" bcvid="" dmvid="" vvid="393310948" ytvid=""/>
+    <design template="default" skin="flat" pcolor="#780000" scolor="#c1121f" tcolor="#fdf0df" acolor="#003049" ocolor="#669bbc">https://d16kd6gzalkogb.cloudfront.net/magazine_images/Kolasin-Monument.jpg</design>
+    <content>/home/pinelabs/beta.brutalistframework.com/bos/molds/dick/module/data/content/331084533.txt</content>
+  </day>
+  <day id="401053324" ddate="2024-08-12" title="Manson Monday" active="true" td="td">
+    <url target="_blank" linktext="Learn More"/>
+    <media type="video" vidtype="yt" vid="" bcvid="" dmvid="" vvid="" ytvid="vOd8hE-xTDY"/>
+    <design template="default" skin="gradient" pcolor="#780000" scolor="#c1121f" tcolor="#fdf0df" acolor="#003049" ocolor="#669bbc"/>
+    <content>/home/pinelabs/beta.brutalistframework.com/bos/molds/dick/module/data/content/401053324.txt</content>
+  </day>
+  <day id="509012325" ddate="2024-08-14" title="World Wednesday" active="false" td="td">
+    <url target="_blank" linktext="Learn More"/>
+    <media type="video" vidtype="yt" vid="Cgovv8jWETM" bcvid="" dmvid="" vvid="" ytvid="Cgovv8jWETM"/>
+    <design template="default" skin="flat" pcolor="#780000" scolor="#c1121f" tcolor="#fdf0df" acolor="#003049" ocolor="#669bbc"/>
+    <content>/home/pinelabs/beta.brutalistframework.com/bos/molds/dick/module/data/content/509012325.txt</content>
+  </day>
+  
+</days>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<roles>
+  <role id="1" title="Proofreader" user="bosadmin" status="active">
+    <description>Proofread all articles</description>
+  </role>
+  <role id="105072355" title="Organizer" user="admin" status="active">
+    <description>Organize events and logistics</description>
+  </role>
+</roles>

@@ -1,0 +1,22 @@
+
+<li><input type="checkbox" name="tagelements[]" value="a" <?php if(in_array('a',$newetagsarray)){echo 'checked="checked"';} ?> /> a</li>
+<li><input type="checkbox" name="tagelements[]" value="article" <?php if(in_array('article',$newetagsarray)){echo 'checked';} ?> /> article</li>
+<li><input type="checkbox" name="tagelements[]" value="aside" <?php if(in_array('aside',$newetagsarray)){echo 'checked';} ?> /> aside</li>
+<li><input type="checkbox" name="tagelements[]" value="audio" <?php if(in_array('audio',$newetagsarray)){echo 'checked';} ?> /> audio</li>
+<li><input type="checkbox" name="tagelements[]" value="blockquote" <?php if(in_array('blockquote',$newetagsarray)){echo 'checked';} ?> /> blockquote</li>
+<li><input type="checkbox" name="tagelements[]" value="details" <?php if(in_array('details',$newetagsarray)){echo 'checked';} ?> /> details</li>
+<li><input type="checkbox" name="tagelements[]" value="footer" <?php if(in_array('footer',$newetagsarray)){echo 'checked';} ?> /> footer</li>
+<li><input type="checkbox" name="tagelements[]" value="form" <?php if(in_array('form',$newetagsarray)){echo 'checked';} ?> /> form</li>
+<li><input type="checkbox" name="tagelements[]" value="header" <?php if(in_array('header',$newetagsarray)){echo 'checked';} ?> /> header</li>
+<li><input type="checkbox" name="tagelements[]" value="hr" <?php if(in_array('hr',$newetagsarray)){echo 'checked';} ?> /> hr</li>
+<li><input type="checkbox" name="tagelements[]" value="iframe" <?php if(in_array('iframe',$newetagsarray)){echo 'checked';} ?> /> iframe</li>
+<li><input type="checkbox" name="tagelements[]" value="img" <?php if(in_array('img',$newetagsarray)){echo 'checked';} ?> /> img</li>
+<li><input type="checkbox" name="tagelements[]" value="main" <?php if(in_array('main',$newetagsarray)){echo 'checked';} ?> /> main</li>
+<li><input type="checkbox" name="tagelements[]" value="menu" <?php if(in_array('menu',$newetagsarray)){echo 'checked';} ?> /> menu</li>
+<li><input type="checkbox" name="tagelements[]" value="nav" <?php if(in_array('nav',$newetagsarray)){echo 'checked';} ?> /> nav</li>
+<li><input type="checkbox" name="tagelements[]" value="ol" <?php if(in_array('ol',$newetagsarray)){echo 'checked';} ?> /> ol</li>
+<li><input type="checkbox" name="tagelements[]" value="p" <?php if(in_array('p',$newetagsarray)){echo 'checked';} ?> /> p</li>
+<li><input type="checkbox" name="tagelements[]" value="section" <?php if(in_array('section',$newetagsarray)){echo 'checked';} ?> /> section</li>
+<li><input type="checkbox" name="tagelements[]" value="table" <?php if(in_array('table',$newetagsarray)){echo 'checked';} ?> /> table</li>
+<li><input type="checkbox" name="tagelements[]" value="ul" <?php if(in_array('ul',$newetagsarray)){echo 'checked';} ?> /> ul</li>
+<li><input type="checkbox" name="tagelements[]" value="video" <?php if(in_array('video',$newetagsarray)){echo 'checked';} ?> /> video</li>

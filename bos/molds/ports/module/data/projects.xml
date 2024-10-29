@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projects>
+  <project id="111" title="Build Demo" owner="bosadmin">
+    <status progress="0">not started</status>
+    <priority>medium</priority>
+    <description>An example project with the goal to build a new demo.</description>
+    <deadline>2025-01-01</deadline>
+  </project>
+  <project id="319062814" title="Dreamweave" owner="bosadmin">
+    <status progress="0">not started</status>
+    <priority>low</priority>
+    <description>weave dreams together</description>
+    <deadline>2024-01-19</deadline>
+  </project>
+</projects>

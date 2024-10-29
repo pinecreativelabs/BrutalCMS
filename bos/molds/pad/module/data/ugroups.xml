@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ugroups>
+  <ugroup id="0" title="Blocked Users" type="guests" pal="0" active="false">
+    <description>Blocked users. All access is denied.</description>
+  </ugroup>
+  <ugroup id="1" title="Members" type="guests" pal="0" active="true">
+    <description>General guests with read-only access.</description>
+  </ugroup>
+  <ugroup id="2" title="Editors" type="editors" pal="1" active="true">
+    <description>Members with content editing access.</description>
+  </ugroup>
+  <ugroup id="3" title="Admins" type="admins" pal="2" active="true">
+    <description>Administrators with full edit permissions.</description>
+  </ugroup>
+  <ugroup id="516041613" title="Publishers" type="editors" pal="1" active="true">
+    <description>Editors who publish posts n pages.</description>
+  </ugroup>
+</ugroups>

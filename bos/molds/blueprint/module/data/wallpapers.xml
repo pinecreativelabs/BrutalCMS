@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wallpapers>
+  <wallpaper id="bpw-2" title="Katfeet" group="bpwg-1" active="true">
+    <url>https://beta.brutalistframework.com/bos/app/files/kat-feet-pumpkin-spice.jpg</url>
+    <options size="contain" position="center top" repeat="repeat-x" attach="1"/>
+  </wallpaper>
+  <wallpaper id="bpw-3" title="September" group="none" active="true">
+    <url>https://beta.brutalistframework.com/bos/app/files/september-barn.jpg</url>
+    <options size="cover" position="center center" repeat="no-repeat" attach="0"/>
+  </wallpaper>
+</wallpapers>

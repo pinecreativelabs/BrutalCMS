@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<settings>
+	<setting id="11">
+		<sitename>Brutalist Framework</sitename>
+		<mailto>butch@brutalistframework.com</mailto>
+		<locale timezone="America/New_York" mode="user" country="Spain" region="Indiana" city="Fort Wayne" cur="USD" curs="$" lang="es"/>
+		<formats date="m/d/Y" timestamp="g:i A"/>
+		<bosui famcopy="true" draggable="off"/>
+		<dev mode="off" jquery="true" jqver="3" icons="none"/>
+		<access registration="false" timeout="900" pal_default="0" login="sitewide" pagelock="false" pwstrength="simple" pwencrypt="md5"/>
+		<agerestrict status="off" age="18" title="Age Verification" redirect="">Must be 18 or older to enter.</agerestrict>
+		<underage redirect="home" redirto="">You are not old enough to enter.</underage>
+		<cc mode="on" duration="7" text_color="#000000" bgcolor="#ff0000" btnbg="#ffff00" btn_text_color="#0000ff" position="bottom"/>
+		<cccontent title="We Use Cookies" policyurl="" btn_text="Got it!" policytext="View Privacy Policy">Cookies help us deliver the best experience on our website. By using our website, you agree to the use of cookies.</cccontent>
+		<meta tracking="off" scverify="html" canonical="on" adult="" nosearchbox="" noreadaloud="" notranslate="" robots=""/>
+		<scverifystring/>
+		<metatitle>Brutalist Framework</metatitle>
+		<metadesc>An open source framework for the brutalist design trend.</metadesc>
+		<og enabled="true">https://www.brutalistframework.com/files/social-card.jpg</og>
+		<tc enabled="true" handle="brutalistfwk">https://www.brutalistframework.com/files/social-card.jpg</tc>
+		<cad enabled="true" pal="1"/>
+		<crude enabled="true" pal="1"/>
+		<dick enabled="true" pal="2"/>
+		<edu enabled="true" pal="2"/>
+		<hapi enabled="true" pal="3"/>
+		<jack enabled="true" pal="2"/>
+		<mad enabled="true" pal="1"/>
+		<map enabled="true" pal="1"/>
+		<mydid enabled="true" pal="3"/>
+		<paws enabled="true" pal="0"/>
+		<ports enabled="true" pal="0"/>
+		<shop enabled="true" pal="1"/>
+		<storyboard enabled="true" pal="0"/>
+		<tilt enabled="true" pal="2"/>
+	</setting>
+</settings>

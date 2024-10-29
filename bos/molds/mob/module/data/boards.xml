@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<boards>
+	<board id="mob-1" title="Mega Menu" ctype="navigation" cgtype="menu" access="1" active="true">
+		<desc>Multi-column nav menu</desc>
+	</board>
+	<board id="mob-2" title="Audio Playlist" ctype="other" cgtype="gallery" access="0" active="true">
+		<desc>Video playlist board</desc>
+	</board>
+	<board id="mob-3" title="FAQs Accordion" ctype="ui" cgtype="accordion" access="0" active="true">
+		<desc>Faqs accordion board</desc>
+	</board>
+</boards>

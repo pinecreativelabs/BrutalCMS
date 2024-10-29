@@ -1,0 +1,9 @@
+sid,stream_title,stream_desc
+1-0,Default,My default stream.
+1-1,Blog,Blogging stream for admin.
+1-2,Podcasts,Podcast stream for admin.
+1-3,Products,Prodcut stream for admin.
+1-4,Events,Event stream for admin.
+1-5,Gallery,Gallery stream for admin.
+1-6,Media,Media stream for admin.
+1-7,Data,Data stream for admin.

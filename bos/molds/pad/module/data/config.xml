@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<padconfigs>
+	<padconfig id="11">
+		<profiles mode="on" layout="bento" theme="custom" userlist="grid" />
+		<modules fam="true" paws="true" ports="true" storyboard="true" />
+		<blocked redirect="system">Access has been restricted for this account.</blocked>
+	</padconfig>
+</padconfigs>

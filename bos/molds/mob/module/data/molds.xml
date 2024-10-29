@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<molds>
+	<mold id="mold-1" title="Testimoldial" type="element" etype="blockquote" gem="0" active="true">
+		<desc>Testimonial block</desc>
+		<classes>arial flow-text</classes>
+		<objects>mo-1,mo-5</objects>
+		<boards>mob-1,mob-2</boards>
+	</mold>
+	<mold id="mold-2" title="Reference Blok" type="other" etype="div" gem="0" active="true">
+		<desc>Citation reference blocks</desc>
+		<classes>quoted flow-text</classes>
+		<objects>mo-4</objects>
+		<boards>mob-3,mob-4</boards>
+	</mold>
+	<mold id="mold-3" title="Menubar" type="navigation" etype="menu" gem="0" active="true">
+		<desc>Menu navigation bar block</desc>
+		<classes/>
+		<objects>mo-4</objects>
+		<boards>mob-1</boards>
+	</mold>
+	<mold id="mold-4" title="Dev Details" type="element" etype="details" gem="0" active="true">
+		<desc>Development details blocks</desc>
+		<classes/>
+		<objects>mo-4</objects>
+		<boards>mob-1</boards>
+	</mold>
+</molds>

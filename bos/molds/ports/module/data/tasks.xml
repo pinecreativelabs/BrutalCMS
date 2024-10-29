@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tasks>
+  <task id="1" title="New task" owner="bosadmin" project="n/a">
+    <status esthrs="3" workhrs="0">in progress</status>
+    <priority>medium</priority>
+    <description>Create new tasks</description>
+    <deadline>2024-11-04</deadline>
+  </task>
+  <task id="319044958" title="Insert Task Into Taco" owner="bosadmin" project="Dreamweave">
+    <status esthrs="3" workhrs="0">in progress</status>
+    <priority>low</priority>
+    <description>Test that taco real good</description>
+    <deadline>2024-10-13</deadline>
+  </task>
+  <task id="405103606" title="Update Github Wiki" owner="bosadmin" project="n/a">
+    <status esthrs="3" workhrs="0">not started</status>
+    <priority>medium</priority>
+    <description>Write new dox</description>
+    <deadline>2024-08-31</deadline>
+  </task>
+  <task id="505034758" title="Twofer Weektask" owner="bosadmin" project="n/a">
+    <status esthrs="3" workhrs="0">not started</status>
+    <priority>low</priority>
+    <description>In 2 weeks do stuff</description>
+    <deadline>2024-08-19</deadline>
+  </task>
+  <task id="605041415" title="Updated Untitled Tasks" owner="bosadmin" project="n/a">
+    <status esthrs="3" workhrs="0">not started</status>
+    <priority>high</priority>
+    <description>Rename untitled tasks</description>
+    <deadline>2024-08-12</deadline>
+  </task>
+  <task id="606092523" title="Em Extraction" owner="emma02" project="Abandoned Anticipation">
+    <status esthrs="3" workhrs="0">in progress</status>
+    <priority>medium</priority>
+    <description>Remove em tags </description>
+    <deadline>2024-10-01</deadline>
+  </task>
+  <task id="706012846" title="[untitled task #706012846]" owner="n/a" project="n/a">
+    <status esthrs="3" workhrs="0">not started</status>
+    <priority>medium</priority>
+    <description>Discover unknown stuff</description>
+    <deadline>2024-09-03</deadline>
+  </task>
+</tasks>

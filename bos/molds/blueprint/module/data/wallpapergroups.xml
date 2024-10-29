@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wallpapergroups>
+  <wallpapergroup id="bpwg-1" title="Home BG Slider" type="slideshow" dur="4" fx="kenburns" active="true"/>
+  <wallpapergroup id="bpwg-2" title="classy group" type="class" dur="3" fx="kenburns" active="true"/>
+  <wallpapergroup id="bpwg-3" title="Featured Slider" type="slideshow" dur="3" fx="xfade" active="true"/>
+  <wallpapergroup id="bpwg-4" title="Sideshow" type="slideshow" dur="3" fx="xfade" active="true"/>
+</wallpapergroups>

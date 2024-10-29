@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<gallery>
+	<post>
+		<id>1</id>
+		<title>My First Gallery Post</title>
+		<summary>Losing my gallery posting virginity.</summary>
+		<type>public</type>
+		<category>porn</category>
+		<filters></filters>
+		<dip></dip>
+		<expire>never</expire>
+		<imgtype>yt / vimeo / self</imgtype>
+		<image></image>
+		<url></url>
+		<target>_self</target>
+		<content></content>
+	</post>
+</gallery>

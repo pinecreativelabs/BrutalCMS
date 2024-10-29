@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<crudeconfigs>
+	<crudeconfig id="27">
+		<options addrecords="true" delrecords="true" readonly="false"/>
+	</crudeconfig>
+</crudeconfigs>

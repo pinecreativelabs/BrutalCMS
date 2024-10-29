@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<settings>
+	<setting id="365">
+		<displaymode persist="true" dformat="l, F jS, Y">month</displaymode>
+		<months jan="1" feb="1" mar="1" apr="1" may="1" jun="0" jul="0" aug="1" sep="1" oct="1" nov="0" dec="1"/>
+		<seasons spring="1" summer="1" fall="0" winter="0"/>
+		<design pcolor="#780000" scolor="#c1121f" tcolor="#fdf0df" acolor="#003049" ocolor="#669bbc"/>
+		<fallback title="Fallback Message" type="image">https://brutalistframework.com/assets/files/images/buttplug.jpg</fallback>
+		<fallbacklink target="_self" text="Preview Link">https://brutalistframework.com/</fallbacklink>
+		<fallbackcontent>This is the default if no other content is specified for the day.</fallbackcontent>
+	</setting>
+</settings>

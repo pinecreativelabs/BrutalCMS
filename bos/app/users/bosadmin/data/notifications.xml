@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notifications>
+	<notify who="public" type="announcement" active="true">
+		<message>This is my first notification!</message>
+		<link/>
+	</notify>
+</notifications>

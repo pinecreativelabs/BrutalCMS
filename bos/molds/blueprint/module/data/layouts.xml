@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layouts>
+  <layout id="bpl-1" title="full" method="b3grid" cols="1" rows="1" preset="1col" active="true">
+    <desc/>
+	<column width="100" height="" x-unit="%" min-width="" max-width="100" min-height="" max-height="" y-unit="vh">block</column>
+    <rules xxs="" xs="100" sm="100" md="100" lg="100" xl="100" xxl="100"/>
+	<b3grid type="blocks" dir="row" align-h="around" align-v="middle" contain="container"/>
+	<bento cellgap="0" columns="8" ar="1" bf="false" mcw="50"/>
+	<cssgrid flow="row" gaps="0px 0px" place-content="start" place-items="start"/>
+  </layout>
+  <layout id="bpl-2" title="Custom 2-Col" method="other" cols="2" rows="1" preset="2col" active="true">
+    <desc>Custom responsive two-column layout.</desc>
+	<column width="50" height="" x-unit="%" min-width="" max-width="50" min-height="" max-height="" y-unit="vh">block</column>
+    <rules xxs="" xs="100" sm="100" md="50" lg="50" xl="50" xxl="50"/>
+	<b3grid type="blocks" dir="row" align-h="evenly" align-v="baseline" contain="container-960"/>
+	<bento cellgap="0" columns="8" ar="1" bf="false" mcw="50"/>
+	<cssgrid flow="row" gaps="0px 0px" place-content="start" place-items="start"/>
+  </layout>
+  
+  <layout id="bpl-4" title="Print Grid" method="print" cols="2" rows="3" preset="1col" active="true">
+    <desc>Print page layout example</desc>
+	<column width="4" height="0" x-unit="in" min-width="" max-width="25" min-height="" max-height="" y-unit="px">block</column>
+    <rules xxs="" xs="100" sm="100" md="50" lg="25" xl="25" xxl="25"/>
+	<b3grid type="blocks" dir="row" align-h="around" align-v="middle" contain="letter"/>
+	<bento cellgap="0" columns="8" ar="1" bf="false" mcw="50"/>
+	<cssgrid flow="row" gaps="0px 0px" place-content="start" place-items="start"/>
+  </layout>
+  <layout id="bpl-5" title="quad-pane" method="b3grid" cols="2" rows="2" preset="1col" active="true">
+    <desc/>
+	<column width="50" height="50" x-unit="vw" min-width="" max-width="" min-height="" max-height="" y-unit="vh">block</column>
+    <rules xxs="" xs="100" sm="100" md="" lg="" xl="" xxl="">hide-on-mobile</rules>
+	<b3grid type="blocks" dir="col" align-h="around" align-v="middle" contain="container"/>
+	<bento cellgap="0" columns="8" ar="1" bf="false" mcw="50"/>
+	<cssgrid flow="row" gaps="0px 0px" place-content="start" place-items="start"/>
+  </layout>
+  <layout id="bpl-6" title="bootstrap-grid" method="bootstrap" cols="4" rows="2" preset="1col" active="true">
+    <desc>Basic bootstrap sample</desc>
+	<column width="6" height="" x-unit="em" min-width="1" max-width="12" min-height="" max-height="" y-unit="em">col</column>
+    <rules xxs="" xs="12" sm="12" md="6" lg="6" xl="6" xxl="">hide-on-tablet</rules>
+	<b3grid type="blocks" dir="row-rev" align-h="around" align-v="middle" contain="container-1200"/>
+	<bento cellgap="0" columns="8" ar="1" bf="false" mcw="50"/>
+	<cssgrid flow="row" gaps="0px 0px" place-content="start" place-items="start"/>
+  </layout>
+  <layout id="bpl-7" title="Home Bento" method="bento" cols="1" rows="1" preset="1-1" active="true">
+    <desc>Home bentogrid layout</desc>
+    <column width="100" height="" x-unit="px" y-unit="px" min-width="" max-width="" min-height="" max-height=""/>
+    <rules xxs="" xs="" sm="" md="" lg="" xl="" xxl=""/>
+	<b3grid type="blocks" dir="row" align-h="around" align-v="middle" contain="container"/>
+    <bento cellgap="0" columns="8" ar="1" bf="false" mcw="50"/>
+	<cssgrid flow="row" gaps="0px 0px" place-content="start" place-items="start"/>
+  </layout>
+  <layout id="bpl-8" title="CSS Grid" method="cssgrid" cols="1" rows="1" preset="1col" active="true">
+    <desc>Basic CSS grid layout</desc>
+    <column width="100" height="" x-unit="px" y-unit="px" min-width="" max-width="" min-height="" max-height=""/>
+    <rules xxs="" xs="" sm="" md="" lg="" xl="" xxl=""/>
+	<b3grid type="blocks" dir="row" align-h="around" align-v="middle" contain="container"/>
+    <bento cellgap="0" columns="8" ar="1" bf="false" mcw="50"/>
+	<cssgrid flow="row" gaps="0px 0px" place-content="start" place-items="start"/>
+  </layout>
+</layouts>

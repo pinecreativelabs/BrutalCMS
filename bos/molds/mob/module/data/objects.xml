@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects>
+  <object id="mo-1" title="Testimonial" type="blockquote" active="true">
+    <desc>Testimonial mold object.</desc>
+    <mops>mop-0,mop-1,mop-3</mops>
+  </object>
+  <object id="mo-4" title="Bootyhole" type="navigation" active="true">
+    <desc>asswipes</desc>
+    <mops>mop-0,mop-4,mop-9,mop-10,mop-13</mops>
+  </object>
+  <object id="mo-5" title="CTA Btnz" type="other" active="true">
+    <desc>Create simple CTA buttons</desc>
+    <mops>mop-0,mop-1,mop-4</mops>
+  </object>
+</objects>

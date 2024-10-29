@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<users>
+  <user id="0" username="bosadmin" pal="3" group="Admins" active="true" status="away" visibility="hidden" blocked="0">
+    <password pin="d93591bdf7860e1e4ee2fca799911215">578a11d916b2d8b548b273259e7948b8</password>
+    <email>brad.fogelstrom@gmail.com</email>
+    <profile name="Bardley Fogie" sex="male" birthday="1985-04-22"/>
+    <locale country="Turkey" region="Indiana" city="Fort Wayne" timezone="Europe/Istanbul" language="tr" curc="USD" curs="$"/>
+    <contact phone="(260) 310-7543" url="https://abandonedanticipation.com" ig="brutalistfwk" tw="brutalistfwk"/>
+    <bio>Build brutality no matter wut.</bio>
+  </user>
+  <user id="219023323" username="ly_18" pal="0" group="Members" active="true" status="available" visibility="public" blocked="0">
+    <password pin="f5c3dd7514bf620a1b85450d2ae374b1">d2feb20b125b5376aef0ead76092738b</password>
+    <email>wet.ly@fairy.net</email>
+    <profile name="" sex="" birthday=""/>
+    <locale country="United States" region="Indiana" city="Winamac" timezone="America/Indiana/Winamac" language="en" curc="USD" curs="$"/>
+    <contact phone="" url="" ig="" tw=""/>
+    <bio/>
+  </user>
+  <user id="319040308" username="bekah31" pal="1" group="Publishers" active="true" status="available" visibility="private" blocked="0">
+    <password pin="54fda78aa8a09b4d77b5aaec57b75028">b3ed48555a989b8ee27f613f7b5724dd</password>
+    <email>bekah31@valley.biz</email>
+    <profile name="" sex="" birthday=""/>
+    <locale country="United States" region="Indiana" city="Winamac" timezone="America/Indiana/Winamac" language="en" curc="USD" curs="$"/>
+    <contact phone="" url="" ig="" tw=""/>
+    <bio/>
+  </user>
+</users>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<properties>
+  <property id="mop-0" title="Object Title" type="text" value="" req="y" ro="0" active="true" />
+  <property id="mop-1" title="first_name" type="text" value="" req="n" ro="0" active="true" />
+  <property id="mop-2" title="Email" type="email" value="" req="y" ro="0" active="true" />
+  <property id="mop-3" title="Phone" type="tel" value="" req="n" ro="0" active="true">
+		<pattern>[0-9]{3}-[0-9]{2}-[0-9]{3}</pattern>
+	</property>
+  <property id="mop-4" title="Text Color" type="color" value="#00ff00" req="n" ro="0" active="true"/>
+  <property id="mop-6" title="Quantity" type="number" min="0" max="999" step="1" value="0" req="y" ro="0" active="true" />
+  <property id="mop-7" title="Score" type="range" min="0" max="100" step="1" value="0" req="n" ro="0" active="true" />
+  <property id="mop-8" title="Toppings" type="checkbox" value="" req="0" ro="0" active="true">
+		<options>Olives,Pineapple,Sausage,Onions</options>
+	</property>
+  <property id="mop-9" title="Mode" type="radio" value="" req="y" ro="0" active="true">
+		<options>on,off</options>
+	</property>
+  <property id="mop-10" title="Message" type="textarea" rows="3" value="" req="n" ro="0" active="true" />
+  <property id="mop-11" title="Size" type="select" value="" req="n" ro="0" active="true">
+		<options>small,medium,large</options>
+	</property>
+  <property id="mop-12" title="Record Time" type="number" value="" req="y" ro="0" active="true" min="0" max="60" step="1" />
+  <property id="mop-13" title="Book Category" type="select" value="" req="0" ro="0" active="true">
+	<options>biography,fiction,non-fiction</options>
+	</property>
+  <property id="mop-14" title="Hidden Meaning" type="hidden" hit="none" value="Top Secret Text" req="n" ro="0" active="true" />
+</properties>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<weekdays>
+	<day id="1" dow="Monday" title="Monday" active="true" td="td">
+		<url target="_parent" linktext="Daydream">https://www.dreamstreamspace.com</url>
+		<media type="video" vidtype="none" bcvid="" dmvid="" vvid="" ytvid="">https://dreamstreamspace.com/bos/app/images/cosmic_world.jpg</media>
+		<design template="default" skin="mesh" pcolor="#780000" scolor="#c1121f" tcolor="#fdf0df" acolor="#003049" ocolor="#669bbc">https://www.rjbagan.com/application/files/4517/2064/2927/Optical-Calibration_02_burgundy-gradient.jpg</design>
+		<content/>
+	</day>
+	<day id="2" dow="Tuesday" title="Tuesday" active="true" td="td">
+		<url target="_parent" linktext="Daydream">https://www.dreamstreamspace.com</url>
+		<media type="image" vidtype="none" bcvid="" dmvid="" vvid="" ytvid="">https://picsum.photos/id/31/367/267</media>
+		<design template="default" skin="flat" pcolor="#780000" scolor="#c1121f" tcolor="#fdf0df" acolor="#003049" ocolor="#669bbc">https://treadlabs.com/cdn/shop/articles/blog-post-healthy-feet.jpg</design>
+		<content>/home/pinelabs/beta.brutalistframework.com/bos/molds/dick/module/data/content/weekdays/tuesday.txt</content>
+	</day>
+	<day id="3" dow="Wednesday" title="Wednesday" active="true" td="do">
+		<url target="_parent" linktext="Daydream">https://www.dreamstreamspace.com</url>
+		<media type="video" vidtype="none" bcvid="" dmvid="" vvid="" ytvid="">https://dreamstreamspace.com/bos/app/images/cosmic_world.jpg</media>
+		<design template="raw" skin="gradient" pcolor="#780000" scolor="#c1121f" tcolor="#fdf0df" acolor="#003049" ocolor="#669bbc"/>
+		<content/>
+	</day>
+	<day id="4" dow="Thursday" title="Thursday" active="true" td="do">
+		<url target="_parent" linktext="Daydream">https://www.dreamstreamspace.com</url>
+		<media type="video" vidtype="none" bcvid="" dmvid="" vvid="" ytvid="">https://dreamstreamspace.com/bos/app/images/cosmic_world.jpg</media>
+		<design template="raw" skin="flat" pcolor="#780000" scolor="#c1121f" tcolor="#fdf0df" acolor="#003049" ocolor="#669bbc"/>
+		<content/>
+	</day>
+	<day id="5" dow="Friday" title="Friday" active="true" td="td">
+		<url target="_parent" linktext="Daydream">https://www.dreamstreamspace.com</url>
+		<media type="video" vidtype="yt" bcvid="" dmvid="" vvid="" ytvid="stxY6YUqqeM">https://dreamstreamspace.com/bos/app/images/cosmic_world.jpg</media>
+		<design template="default" skin="flat" pcolor="#780000" scolor="#c1121f" tcolor="#fdf0df" acolor="#003049" ocolor="#669bbc"/>
+		<content>/home/pinelabs/beta.brutalistframework.com/bos/molds/dick/module/data/content/weekdays/friday.txt</content>
+	</day>
+	<day id="6" dow="Saturday" title="Saturday" active="true" td="do">
+		<url target="_parent" linktext="Daydream">https://www.dreamstreamspace.com</url>
+		<media type="video" vidtype="none" bcvid="" dmvid="" vvid="" ytvid="">https://dreamstreamspace.com/bos/app/images/cosmic_world.jpg</media>
+		<design template="raw" skin="gradient" pcolor="#780000" scolor="#c1121f" tcolor="#fdf0df" acolor="#003049" ocolor="#669bbc"/>
+		<content/>
+	</day>
+	<day id="7" dow="Sunday" title="Serenity Sunday" active="true" td="td">
+		<url target="_parent" linktext="Daydream">https://www.dreamstreamspace.com</url>
+		<media type="image" vidtype="none" bcvid="" dmvid="" vvid="" ytvid="">https://dreamstreamspace.com/bos/app/images/cosmic_world.jpg</media>
+		<design template="default" skin="nude" pcolor="#780000" scolor="#c1121f" tcolor="#fdf0df" acolor="#003049" ocolor="#669bbc"></design>
+		<content>/home/pinelabs/beta.brutalistframework.com/bos/molds/dick/module/data/content/weekdays/sunday.txt</content>
+	</day>
+</weekdays>
