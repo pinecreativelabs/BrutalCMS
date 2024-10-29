@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<pagegroups>
-  <pagegroup id="1" title="Ungrouped" description="Ungrouped pages." type="public"/>
-  <pagegroup id="2" title="Confirmations" description="Landing pages for form submissions." type="hidden"/>
-</pagegroups>

@@ -1,5 +1,0 @@
-uid,username,password,email,is_active,group
-1,bosadmin,cd92a26534dba48cd785cdcc0b3e6bd1,null,true,bos
-2,admin,b3ed48555a989b8ee27f613f7b5724dd,admin@null.net,true,1
-3,editor,b3ed48555a989b8ee27f613f7b5724dd,editor@null.net,true,2
-4,member,b3ed48555a989b8ee27f613f7b5724dd,member@null.net,true,3
