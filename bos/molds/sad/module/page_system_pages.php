@@ -2,12 +2,10 @@
 $system_page=true;
 $module=true;
 include realpath(__DIR__. '/../../..').'/build/constructor.php';
-
 $common = realpath(__DIR__. '/../../..').'/pat/pad/module/common.php';
 require_once($common);
 checkUser();
 $current_user = $_SESSION['userName'];
-
 ?>
 <!DOCTYPE html>
 <html>
@@ -26,12 +24,13 @@ $current_user = $_SESSION['userName'];
 </header>
 <?php session_start();
 if(isset($_SESSION['message'])){ ?>
-<div class="padded" style="background: #ff0000; color: #ffff00; margin-top:20px;"><?php echo $_SESSION['message']; ?></div>
+<div class="padded" style="margin-top:20px;"><?php echo $_SESSION['message']; ?></div>
 <?php unset($_SESSION['message']); } ?>
 <div class="padded">
 	<div class="block-wrap">
 		<div class="block bw50 xs-100 sm-100 md-100 lg-100"><div style="padding: 1rem;">
-			<div class="limebox"><form method="POST" action="action_update_mm.php">
+			<div class="limebox"><form method="POST" action="action_update_system.php">
+				<input type="hidden" name="pup" value="mm" />
 				<h4 class="flow-text"><strong><i class="bi bi-wrench"></i> Maintenance Mode</strong></h4>
 				<details><summary>Settings</summary>
 					<div class="details">
@@ -46,7 +45,8 @@ if(isset($_SESSION['message'])){ ?>
 				</details>
 				<button type="submit" name="update_mmode" class="add-btn brick">&#10004; Update</button>
 			</form></div>
-			<div class="limebox" style="margin-top: 1.5rem;"><form method="POST" action="action_update_comingsoon.php">
+			<div class="limebox" style="margin-top: 1.5rem;"><form method="POST" action="action_update_system.php">
+				<input type="hidden" name="pup" value="cs" />
 				<h4 class="flow-text"><strong><i class="bi bi-danger"></i> Coming Soon</strong></h4>
 				<details><summary>Settings</summary>
 					<div class="details">

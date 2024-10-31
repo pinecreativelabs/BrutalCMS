@@ -120,9 +120,7 @@ if(isset($_SESSION['message'])){ ?>
 					<strong>Global META Title:</strong><br /><small><?php echo $global_meta_title;?></small><br /><br />
 					<strong>Global META Description:</strong><br /><small><?php echo $global_meta_desc;?></small><br /><br />
 					<strong>Open Graph (OG):</strong> <?php echo $og;?><br />
-					<strong>OG Image URL:</strong> [<a href="<?php echo $og_image;?>" target="_blank">test link &raquo;</a>]<br /><br />
-					<strong>Twitter Card:</strong> <?php echo $tc;?><br /><strong>Handle:</strong> <?php echo $tc_handle;?><br />
-					<strong>TC Image URL:</strong> [<a href="<?php echo $tc_image;?>" target="_blank">test link &raquo;</a>]
+					<strong>OG Image URL:</strong> [<a href="<?php echo $og_image;?>" target="_blank">test link &raquo;</a>]
 					<?php if($meta_rating=='true'){ ?><br /><br /><strong>Enabled Global Search Bot Tags:</strong><br />adult content rating<br /><?php } ?>
 					<?php if($meta_robots=='true'){ ?>nofollow,noindex<br /><?php } ?>
 					<?php if($meta_noreadaloud=='true'){ ?>noreadaloud<br /><?php } ?>

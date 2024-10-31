@@ -26,12 +26,13 @@ $current_user = $_SESSION['userName'];
 </header>
 <?php session_start();
 if(isset($_SESSION['message'])){ ?>
-<div class="padded" style="background: #ff0000; color: #ffff00; margin-top:20px;"><?php echo $_SESSION['message']; ?></div>
+<div class="padded" style="margin-top:20px;"><?php echo $_SESSION['message']; ?></div>
 <?php unset($_SESSION['message']); } ?>
 <div class="padded">
 	<div class="block-wrap">
 		<div class="block bw50 xs-100 sm-100 md-100 lg-100"><div style="padding: 1rem;">
-			<div class="limebox"><form method="POST" action="action_update_seo.php">
+			<div class="limebox"><form method="POST" action="action_update_system.php">
+				<input type="hidden" name="pup" value="seo"/>
 				<h4 class="flow-text"><strong><i class="bi bi-zoom-right"></i> General SEO </strong></h4>
 				<details><summary>Settings</summary>
 					<div class="details">
@@ -53,7 +54,8 @@ if(isset($_SESSION['message'])){ ?>
 				</details>
 				<button type="submit" name="update_seo" class="add-btn brick">&#10004; Update</button>
 			</form></div>
-			<div class="limebox" style="margin-top: 1.5rem;"><form method="POST" action="action_update_so.php">
+			<div class="limebox" style="margin-top: 1.5rem;"><form method="POST" action="action_update_system.php">
+				<input type="hidden" name="pup" value="so" />
 				<h4 class="flow-text"><strong><i class="bi bi-verify"></i> Verify Site Ownership </strong></h4>
 				<details><summary>Settings</summary>
 					<div class="details">
@@ -81,7 +83,8 @@ if(isset($_SESSION['message'])){ ?>
 				</details>
 				<button type="submit" name="update_so_verify" class="add-btn brick">&#10004; Update</button>
 			</form></div>
-			<div class="limebox" style="margin-top: 1.5rem;"><form method="POST" action="action_update_tc.php">
+			<div class="limebox" style="margin-top: 1.5rem;"><form method="POST" action="action_update_system.php">
+				<input type="hidden" name="pup" value="tc" />
 				<h4 class="flow-text"><strong><i class="bi bi-spy"></i> Tracking Codes </strong></h4>
 				<details><summary>Google Analytics</summary>
 					<div class="details">
@@ -99,7 +102,8 @@ if(isset($_SESSION['message'])){ ?>
 			</form></div>
 		</div></div>
 		<div class="block bw50 xs-100 sm-100 md-100 lg-100"><div style="padding: 1rem;">
-			<div class="limebox"><form method="POST" action="action_update_meta.php">
+			<div class="limebox"><form method="POST" action="action_update_system.php">
+				<input type="hidden" name="pup" value="meta" />
 				<h4 class="flow-text"><strong><i class="bi bi-robot"></i> META Tags</strong></h4>
 				<details><summary>Search Bots</summary>
 					<div class="details">
@@ -122,32 +126,12 @@ if(isset($_SESSION['message'])){ ?>
 						<input type="url" name="og_image" value="<?php echo $og_image;?>" /><br />
 					</div>
 				</details>
-				<details><summary>Twitter Card</summary>
-					<div class="details">
-						<label><input type="checkbox" name="tc" value="true" <?php echo ($tc == 'true') ? 'checked="checked"' : ''; ?>/> enable Twitter card </label><br /><br />
-						<label for="tc_handle">Handle</label><br />
-						<input type="text" name="tc_handle" value="<?php echo $tc_handle;?>" /><br />
-						<label for="tc_image">Image URL</label><br />
-						<input type="url" name="tc_image" value="<?php echo $tc_image;?>" /><br />
-					</div>
-				</details>
 				<button type="submit" name="update_meta" class="add-btn brick">&#10004; Update</button>
 			</form></div>
-			
 		</div></div>
 	</div>
  
 </div>  
-
-<!-- Initiate modal -->
-<div class="modal">
-	<div class="modal-inner">
-		<span data-modal-close>&times;</span>
-		<div class="modal-content"></div>
-	</div>
-</div>
-
-<script src="<?php echo $bosdir;?>core/jab/buix/modal.js"></script>
 <script>function reloadPage() {window.location.reload(true);}</script>
 </body>
 </html>

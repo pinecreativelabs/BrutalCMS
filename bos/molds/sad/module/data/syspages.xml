@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <syspages>
 	<syspage id="11" errpagemode="custom">
-		<comingsoon status="off" template="capture" title="Coming Soon" deadline="2024-02-23T18:30">New brutality is being constructed!</comingsoon>
-		<mmode status="off" title="Maintenance Mode">This site is undergoing maintenance.</mmode>
+		<comingsoon status="off" template="construction" title="Coming Soon" deadline="2024-12-25T18:30">New brutality is being constructed!</comingsoon>
+		<mmode status="on" title="Maintenance Mode">This site is undergoing maintenance.</mmode>
 		<error403 title="403 Forbidden">The server has refused to fulfill your request.</error403>
 		<error404 title="404 Not Found">The document or file requested was not found on this server.</error404>
 		<error405 title="405 Method Not Allowed">The method specified in the Request-Line is not allowed for the specified resource.</error405>
